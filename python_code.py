@@ -104,10 +104,10 @@ import psycopg2
 import pandas as pd
 from sqlalchemy import create_engine
 
-host = "localhost"
-database = "newdb"
-username = "postgres"
-password = "postgres"
+host = "<host_name>"
+database = "<database_name>"
+username = "<username>"
+password = "<password>"
 
 # Assuming you have a DataFrame named df containing your data
 # Replace 'postgresql://username:password@localhost/database_name' with your PostgreSQL connection string
